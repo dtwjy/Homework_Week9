@@ -5,7 +5,7 @@
     "title": "MRT and LRT Stations",
     "projection": {"type": "mercator"},
     "data": {
-          "url": "https://raw.githubusercontent.com/dtwjy/Assignment-2/main/mrt_lrt_data.csv"
+          "url": "https://raw.githubusercontent.com/dtwjy/Homework_Week9/main/mrt_lrt_data.csv"
         },
     "params": [
       {
@@ -33,7 +33,7 @@
     "layer": [
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/dtwjy/Assignment-2/main/neighbourhoods_sg.json",
+          "url": "https://raw.githubusercontent.com/dtwjy/Homework_Week9/main/neighbourhoods_sg.json",
           "format": {"type": "topojson", "feature": "neighbourhoods_sg"}
         },
         "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "darkgray"}
