@@ -1,0 +1,55 @@
+# Metadata for Annual Age Distribution of Buses
+---
+Identifier: '97be7b7a-fa27-46c1-a226-4653597e253b'
+Name: 'annual-age-distribution-of-buses'
+Title: 'Annual Age Distribution of Buses'
+Description:
+  - 'All buses (excluding road tax exempted buses) registered in Singapore.'
+  - ''
+Topics:
+  - 'Transport'
+Keywords:
+  - 'bus'
+Publisher:
+  Name: 'Land Transport Authority'
+  Admin 1:
+    Name: 'Land Transport Authority'
+    Department: 'Land Transport Authority'
+    Email: 'Datamall@LTA.gov.sg'
+Sources:
+  - 'Land Transport Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2005-01-01 to 2017-12-31'
+Last Updated: '2018-03-13T10:54:56.365880'
+Resources:
+  -
+    Identifier: '508b9ba5-ba5f-449e-bc69-e881ba15a018'
+    Title: 'Annual Age Distribution of Bus'
+    Url: 'https://storage.data.gov.sg/annual-age-distribution-of-buses/resources/annual-age-distribution-of-bus-2018-03-13T10-54-55Z.csv'
+    Format: 'CSV'
+    Coverage: '2005-01-01 to 2017-12-31'
+    Description:
+      - 'Note: Figures exclude tax exempted vehicles and vehicles for off-the-road
+        use (RU plates).'
+      - ''
+      - 'MVP01-3-4(Age Bus)'
+    Last Updated: '2018-03-13T10:54:55.756402'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'age_years'
+        Title: 'Age Years'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number'
+        Title: 'Number'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Buses'
